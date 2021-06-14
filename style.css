@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(/images/tj\ bg\ homepage.jpg);
+    background-image: url(./images/tj\ bg\ homepage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
