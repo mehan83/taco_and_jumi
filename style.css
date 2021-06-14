@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/tj\ bg\ homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+   top: 0;
+    width: 100%;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #e6f3cd;
+    padding: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Sacramento';
+}
+
+nav ul li a:hover{
+    color: white;
+
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    
+}
+
+.banner-text h2{
+    margin: 0;
+    font-size: 55px;
+    color: white;
+    font-family: 'Sacramento';
+   
+}
+
+.banner-text p {
+    font-size: 22px;
+    margin: 0;
+    font-family: 'Kaushan Script';
+    color: #e6f3cd;
+
+}
+
+.banner-text a{
+    text-decoration: none;
+    border: 1px solid greenyellow;
+    font-size: 17px;
+    padding: 10px 35px;
+    color: white;
+    display: inline-block;
+    margin-top: 5%;
+
+    text-transform: uppercase;
+    font-family: 'Kaushan Script';
+
+}
+
+.banner-text a:hover {
+    border-color: greenyellow;
+    background:  #c0dd86;
+}
