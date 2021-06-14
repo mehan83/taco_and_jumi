@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(/images/Us.jpg);
+    background-image: url(./images/Us.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
